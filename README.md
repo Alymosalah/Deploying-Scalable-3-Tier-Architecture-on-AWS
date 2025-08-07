@@ -2,6 +2,8 @@
 
 > **Note:** This project uses Terraform to deploy a scalable and highly available 3-tier application architecture on AWS.  
 
+![Demo](Solution Architecture Diagram.gif)
+
 ## 🧩 Solution Overview
 
 This project implements a scalable and resilient **3-tier web application architecture** on AWS using **Terraform** Infrastructure as Code (IaC). It is designed for workloads that need separation of concerns (frontend/backend/database), scalability, high availability, and automated provisioning.
