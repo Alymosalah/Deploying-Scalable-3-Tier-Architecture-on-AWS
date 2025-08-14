@@ -25,7 +25,6 @@ This solution can serve as a production-ready base infrastructure for hosting an
 
 - [Solution Overview](#solution-overview)  
 - [Architecture Diagram](#architecture-diagram)  
-- [Terraform Modules](#terraform-modules)  
 - [Component Breakdown](#component-breakdown)  
 - [Customizing the Solution](#customizing-the-solution)  
 - [Prerequisites for Customization](#prerequisites-for-customization)  
@@ -81,26 +80,6 @@ Key Features:
 - Modular Design using Terraform modules for reusability
 - Monitoring with CloudWatch and log collection
 - Fast Global Content Delivery via CloudFront
-
----
-
-
-
-## 🧱 Terraform Modules
-
-The project is structured using isolated modules to separate concerns and ease maintenance.
-
-| Module      | Purpose                                      |
-|-------------|----------------------------------------------|
-| `vpc`       | Defines custom VPC, public/private subnets   |
-| `SecGroups` | Sets up tiered security groups               |
-| `key`       | Handles SSH key pair for EC2 access          |
-| `FrontEnd`  | Provisions EC2 for frontend and UserData     |
-| `BackEnd`   | Deploys backend EC2 services                 |
-| `ASG`       | Auto Scaling for front and backend tiers     |
-| `DB`        | RDS database provisioning                    |
-| `CloudWatch`| Alarm and metrics for monitoring             |
-| `CloudFront`| CDN for frontend acceleration                |
 
 ---
 
