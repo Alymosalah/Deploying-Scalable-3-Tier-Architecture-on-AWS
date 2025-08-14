@@ -1,6 +1,5 @@
 # 3-Tier Web Application on AWS with Terraform
-
-> **Note:** This is a project that uses Terraform to deploy a scalable and highly available 3-tier application architecture on AWS.  
+ 
 
 <img width="1470" height="686" alt="image-1" src="https://github.com/user-attachments/assets/20ff8ef4-795b-44b5-9725-8e47024e5abe" />
 
@@ -35,7 +34,6 @@ This solution can serve as a production-ready base infrastructure for hosting an
   3. [Build & Deploy](#3-build--deploy)  
 - [Operational Metrics](#operational-metrics)  
 - [External Contributors](#external-contributors)  
-- [License](#license)
 
 ---
 ## 🖼 Architecture Diagram
