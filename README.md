@@ -2,7 +2,7 @@
 
 > **Note:** This project uses Terraform to deploy a scalable and highly available 3-tier application architecture on AWS.  
 
-![Demo](Solution Architecture Diagram.gif)
+<img width="1470" height="686" alt="image-1" src="https://github.com/user-attachments/assets/20ff8ef4-795b-44b5-9725-8e47024e5abe" />
 
 ## 🧩 Solution Overview
 
